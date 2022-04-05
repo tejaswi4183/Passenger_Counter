@@ -14,7 +14,8 @@ function incrementby5() {
 function save() {
     let countStr = count + " - "
     saveEl.textContent=saveEl.textContent+countStr
-    
+    countEl.textContent = 0
+    count = 0
 }
 function reset(){
     countEl.textContent = 0
